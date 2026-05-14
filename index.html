@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ValmisLab Store — Domains for Sale</title>
+  <meta name="description" content="Selected domains available for purchase.">
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #171a21;
+      --text: #f5f7fb;
+      --muted: #a8b0c0;
+      --line: #2a2f3a;
+      --accent: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 64px;
+    }
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+
+    .brand {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      max-width: 720px;
+      font-size: clamp(40px, 7vw, 72px);
+      line-height: 0.95;
+      letter-spacing: -0.06em;
+      margin: 0 0 20px;
+    }
+
+    .lead {
+      max-width: 620px;
+      color: var(--muted);
+      font-size: 20px;
+      margin: 0 0 40px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 16px;
+      margin-top: 32px;
+    }
+
+    .card {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--card);
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .domain {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+    }
+
+    .meta {
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .price {
+      white-space: nowrap;
+      font-weight: 700;
+    }
+
+    footer {
+      margin-top: 64px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        display: block;
+      }
+
+      .price {
+        margin-top: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <img class="logo" src="assets/logo.png" alt="ValmisLab" onerror="this.remove()">
+      <div class="brand">ValmisLab Store</div>
+    </header>
+
+    <h1>Domains for sale.</h1>
+    <p class="lead">A small collection of selected domains available for secure purchase through domain marketplaces.</p>
+
+    <section class="grid" aria-label="Domains for sale">
+      <a class="card" href="veo4.biz/">
+        <div>
+          <div class="domain">veo4.biz</div>
+          <div class="meta">Short AI/video-related domain</div>
+        </div>
+        <div class="price">$149</div>
+      </a>
+    </section>
+
+    <footer>
+      © ValmisLab. Domain availability and price may change without notice.
+    </footer>
+  </main>
+</body>
+</html>
